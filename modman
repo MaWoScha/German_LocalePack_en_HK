@@ -1,0 +1,97 @@
+#BackendModule
+app/code/community/German/LocalePackHk                        app/code/community/German/LocalePackHk
+app/etc/modules/German_LocalePackHk.xml                       app/etc/modules/German_LocalePackHk.xml
+
+
+#Downloader
+
+
+#Misc
+
+
+#TinyMCE
+
+
+#LocalePack Translation
+app/locale/de_DE/German_LocaleHk.csv app/locale/de_DE/German_LocaleHk.csv
+app/locale/en_HK/German_LocaleHk.csv app/locale/en_HK/German_LocaleHk.csv
+app/locale/en_US/German_LocaleHk.csv app/locale/en_US/German_LocaleHk.csv
+app/locale/es_ES/German_LocaleHk.csv app/locale/es_ES/German_LocaleHk.csv
+app/locale/fr_FR/German_LocaleHk.csv app/locale/fr_FR/German_LocaleHk.csv
+
+#Adminhtml und Default Theme
+app/design/adminhtml/default/default/locale/en_HK/translate.csv     app/design/adminhtml/default/default/locale/en_HK/translate.csv
+app/design/frontend/default/default/locale/en_HK/translate.csv      app/design/frontend/default/default/locale/en_HK/translate.csv
+app/design/frontend/rwd/default/locale/en_HK/translate.csv          app/design/frontend/rwd/default/locale/en_HK/translate.csv
+
+#CoreTranslation
+app/locale/en_HK/Mage_Adminhtml.csv app/locale/en_HK/Mage_Adminhtml.csv
+app/locale/en_HK/Mage_AdminNotification.csv app/locale/en_HK/Mage_AdminNotification.csv
+app/locale/en_HK/Mage_Api.csv app/locale/en_HK/Mage_Api.csv
+app/locale/en_HK/Mage_Api2.csv app/locale/en_HK/Mage_Api2.csv
+app/locale/en_HK/Mage_Authorizenet.csv app/locale/en_HK/Mage_Authorizenet.csv
+app/locale/en_HK/Mage_Backup.csv app/locale/en_HK/Mage_Backup.csv
+app/locale/en_HK/Mage_Bundle.csv app/locale/en_HK/Mage_Bundle.csv
+app/locale/en_HK/Mage_Captcha.csv app/locale/en_HK/Mage_Captcha.csv
+app/locale/en_HK/Mage_Catalog.csv app/locale/en_HK/Mage_Catalog.csv
+app/locale/en_HK/Mage_CatalogInventory.csv app/locale/en_HK/Mage_CatalogInventory.csv
+app/locale/en_HK/Mage_CatalogRule.csv app/locale/en_HK/Mage_CatalogRule.csv
+app/locale/en_HK/Mage_CatalogSearch.csv app/locale/en_HK/Mage_CatalogSearch.csv
+app/locale/en_HK/Mage_Centinel.csv app/locale/en_HK/Mage_Centinel.csv
+app/locale/en_HK/Mage_Checkout.csv app/locale/en_HK/Mage_Checkout.csv
+app/locale/en_HK/Mage_Cms.csv app/locale/en_HK/Mage_Cms.csv
+app/locale/en_HK/Mage_Compiler.csv app/locale/en_HK/Mage_Compiler.csv
+app/locale/en_HK/Mage_ConfigurableSwatches.csv app/locale/en_HK/Mage_ConfigurableSwatches.csv
+app/locale/en_HK/Mage_Connect.csv app/locale/en_HK/Mage_Connect.csv
+app/locale/en_HK/Mage_Contacts.csv app/locale/en_HK/Mage_Contacts.csv
+app/locale/en_HK/Mage_Core.csv app/locale/en_HK/Mage_Core.csv
+app/locale/en_HK/Mage_Cron.csv app/locale/en_HK/Mage_Cron.csv
+app/locale/en_HK/Mage_CurrencySymbol.csv app/locale/en_HK/Mage_CurrencySymbol.csv
+app/locale/en_HK/Mage_Customer.csv app/locale/en_HK/Mage_Customer.csv
+app/locale/en_HK/Mage_Dataflow.csv app/locale/en_HK/Mage_Dataflow.csv
+app/locale/en_HK/Mage_Directory.csv app/locale/en_HK/Mage_Directory.csv
+app/locale/en_HK/Mage_Downloadable.csv app/locale/en_HK/Mage_Downloadable.csv
+app/locale/en_HK/Mage_Eav.csv app/locale/en_HK/Mage_Eav.csv
+app/locale/en_HK/Mage_GiftMessage.csv app/locale/en_HK/Mage_GiftMessage.csv
+app/locale/en_HK/Mage_GoogleAnalytics.csv app/locale/en_HK/Mage_GoogleAnalytics.csv
+app/locale/en_HK/Mage_GoogleBase.csv app/locale/en_HK/Mage_GoogleBase.csv
+app/locale/en_HK/Mage_GoogleCheckout.csv app/locale/en_HK/Mage_GoogleCheckout.csv
+app/locale/en_HK/Mage_ImportExport.csv app/locale/en_HK/Mage_ImportExport.csv
+app/locale/en_HK/Mage_Index.csv app/locale/en_HK/Mage_Index.csv
+app/locale/en_HK/Mage_Install.csv app/locale/en_HK/Mage_Install.csv
+app/locale/en_HK/Mage_Log.csv app/locale/en_HK/Mage_Log.csv
+app/locale/en_HK/Mage_Media.csv app/locale/en_HK/Mage_Media.csv
+app/locale/en_HK/Mage_Newsletter.csv app/locale/en_HK/Mage_Newsletter.csv
+app/locale/en_HK/Mage_OAuth.csv app/locale/en_HK/Mage_OAuth.csv
+app/locale/en_HK/Mage_Page.csv app/locale/en_HK/Mage_Page.csv
+app/locale/en_HK/Mage_PageCache.csv app/locale/en_HK/Mage_PageCache.csv
+app/locale/en_HK/Mage_Paygate.csv app/locale/en_HK/Mage_Paygate.csv
+app/locale/en_HK/Mage_Payment.csv app/locale/en_HK/Mage_Payment.csv
+app/locale/en_HK/Mage_Paypal.csv app/locale/en_HK/Mage_Paypal.csv
+app/locale/en_HK/Mage_PaypalUk.csv app/locale/en_HK/Mage_PaypalUk.csv
+app/locale/en_HK/Mage_Persistent.csv app/locale/en_HK/Mage_Persistent.csv
+app/locale/en_HK/Mage_Poll.csv app/locale/en_HK/Mage_Poll.csv
+app/locale/en_HK/Mage_ProductAlert.csv app/locale/en_HK/Mage_ProductAlert.csv
+app/locale/en_HK/Mage_Rating.csv app/locale/en_HK/Mage_Rating.csv
+app/locale/en_HK/Mage_Reports.csv app/locale/en_HK/Mage_Reports.csv
+app/locale/en_HK/Mage_Review.csv app/locale/en_HK/Mage_Review.csv
+app/locale/en_HK/Mage_Rss.csv app/locale/en_HK/Mage_Rss.csv
+app/locale/en_HK/Mage_Rule.csv app/locale/en_HK/Mage_Rule.csv
+app/locale/en_HK/Mage_Sales.csv app/locale/en_HK/Mage_Sales.csv
+app/locale/en_HK/Mage_SalesRule.csv app/locale/en_HK/Mage_SalesRule.csv
+app/locale/en_HK/Mage_Sendfriend.csv app/locale/en_HK/Mage_Sendfriend.csv
+app/locale/en_HK/Mage_Shipping.csv app/locale/en_HK/Mage_Shipping.csv
+app/locale/en_HK/Mage_Sitemap.csv app/locale/en_HK/Mage_Sitemap.csv
+app/locale/en_HK/Mage_Tag.csv app/locale/en_HK/Mage_Tag.csv
+app/locale/en_HK/Mage_Tax.csv app/locale/en_HK/Mage_Tax.csv
+app/locale/en_HK/Mage_Usa.csv app/locale/en_HK/Mage_Usa.csv
+app/locale/en_HK/Mage_Weee.csv app/locale/en_HK/Mage_Weee.csv
+app/locale/en_HK/Mage_Widget.csv app/locale/en_HK/Mage_Widget.csv
+app/locale/en_HK/Mage_Wishlist.csv app/locale/en_HK/Mage_Wishlist.csv
+app/locale/en_HK/Mage_XmlConnect.csv app/locale/en_HK/Mage_XmlConnect.csv
+app/locale/en_HK/Phoenix_Moneybookers.csv app/locale/en_HK/Phoenix_Moneybookers.csv
+
+
+
+# Clear the cache
+#@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

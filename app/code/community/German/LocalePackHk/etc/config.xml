@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackHk>
+            <version>0.2.0</version>
+            <locale>en_HK</locale>
+            <title>English (Hong Kong) Language Pack</title>
+            <link_git>https://github.com/MaWoScha/German_LocalePack_en_HK</link_git>
+            <link_mage></link_mage>
+        </German_LocalePackHk>
+    </modules>
+
+    <global>
+        <models>
+            <localepackhk>
+                <class>German_LocalePackHk_Model</class>
+            </localepackhk>
+        </models>
+        <helpers>
+            <localepackhk>
+                <class>German_LocalePackHk_Helper</class>
+            </localepackhk>
+        </helpers>
+        <blocks>
+            <localepackhk>
+                <class>German_LocalePackHk_Block</class>
+            </localepackhk>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackhk>
+                        <class>localepackhk/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackhk>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+	
+    <default>
+        <localepackhk>
+             <notification>
+                <url>https://github.com/MaWoScha/German_LocalePack_en_HK</url>
+            </notification>
+        </localepackhk>
+        <magesetup>
+            <default_country>HK</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <localepackhk>
+                    <files>
+                    	<default>localepackhk.xml</default>
+                    </files>
+                </localepackhk>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <German_LocalePackHk>
+                    <files>
+                        <localepackhk>German_LocaleHk.csv</localepackhk>
+                        <default>German_LocaleEn.csv</default>
+                    </files>
+                </German_LocalePackHk>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackhk">
+                                            <title>Language Packs</title>
+                                    		<children> -->
+                                        		<localepackhk translate="title" module="localepackhk">
+                                            		<title>English (Hong Kong) Language Pack</title>
+                                        		</localepackhk> <!--
+                                    		</children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>
